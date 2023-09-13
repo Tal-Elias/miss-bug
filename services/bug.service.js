@@ -9,7 +9,7 @@ export const bugService = {
     save
 }
 
-const PAGE_SIZE = 4
+const PAGE_SIZE = 3
 const bugs = utilService.readJsonFile('data/bug.json')
 
 function query(filterBy, sortBy) {

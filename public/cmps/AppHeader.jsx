@@ -36,11 +36,10 @@ export function AppHeader() {
             </nav>
             <h1>Bugs are Forever</h1>
             {user ? (
-                < section >
-
+                <section>
                     <Link to={`/user/${user._id}`}>Hello {user.fullname}</Link>
                     <button onClick={onLogout}>Logout</button>
-                </ section >
+                </section>
             ) : (
                 <section>
                     <LoginSignup onSetUser={onSetUser} />

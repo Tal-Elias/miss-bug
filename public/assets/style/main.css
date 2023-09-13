@@ -1,6 +1,7 @@
 body {
     position: relative;
     max-width: 70vw;
+    min-height: 100vh;
     margin: auto;
 }
 
@@ -10,9 +11,11 @@ header {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: lightskyblue;
+    width: 100%;
     padding: 5px;
-    margin: 10px 0;
     text-align: center;
 }
 
@@ -63,6 +66,8 @@ nav a:hover {
 }
 
 .bug-list {
+    display: flex;
+    justify-content: center;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
