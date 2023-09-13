@@ -1,0 +1,171 @@
+[
+  {
+    "_id": "M3M0RY",
+    "title": "Critical Memory Leak",
+    "severity": 5,
+    "description": "Urgent: System running out of memory!",
+    "labels": ["critical", "urgent", "bug"],
+    "createdAt": 1692415089377,
+    "owner": {
+      "_id": "u101",
+      "fullname": "User One",
+      "score": 100
+    }
+  },
+  {
+    "_id": "S3CURITY",
+    "title": "Security Breach Alert",
+    "severity": 5,
+    "description": "Potential security breach detected.",
+    "labels": ["security", "urgent", "bug"],
+    "createdAt": 1808109264111,
+    "owner": {
+      "_id": "u102",
+      "fullname": "User Two",
+      "score": 100
+    }
+  },
+  {
+    "_id": "1NF1N1T3",
+    "title": "Infinite Loop Detected",
+    "severity": 4,
+    "description": "Infinite loop detected in the code.",
+    "labels": ["need-CR", "bug", "dev-branch"],
+    "createdAt": 12407869454,
+    "owner": {
+      "_id": "u103",
+      "fullname": "User Three",
+      "score": 100
+    }
+  },
+  {
+    "_id": "NTWK1",
+    "title": "Network Connection Lost",
+    "severity": 4,
+    "description": "Unable to connect to the network.",
+    "labels": ["network", "urgent", "bug"],
+    "createdAt": 1713933547852,
+    "owner": {
+      "_id": "u101",
+      "fullname": "User One",
+      "score": 100
+    }
+  },
+  {
+    "_id": "F1L3CRRPT",
+    "title": "File Corruption Detected",
+    "severity": 4,
+    "description": "Important files are corrupted.",
+    "labels": ["data", "bug", "urgent"],
+    "createdAt": 1745354326939,
+    "owner": {
+      "_id": "u102",
+      "fullname": "User Two",
+      "score": 100
+    }
+  },
+  {
+    "_id": "K3YB0RD",
+    "title": "Keyboard Not Found",
+    "severity": 3,
+    "description": "Keyboard not detected. Check the connection.",
+    "labels": ["hardware", "urgent", "dev-branch"],
+    "createdAt": 1542107359004,
+    "owner": {
+      "_id": "u103",
+      "fullname": "User Three",
+      "score": 100
+    }
+  },
+  {
+    "_id": "SRVRLD",
+    "title": "Server Overload Warning",
+    "severity": 3,
+    "description": "Server resources nearing maximum capacity.",
+    "labels": ["server", "warning", "dev-branch"],
+    "createdAt": 1776748422356,
+    "owner": {
+      "_id": "u101",
+      "fullname": "User One",
+      "score": 100
+    }
+  },
+  {
+    "_id": "DBCNCT",
+    "title": "Database Connection Error",
+    "severity": 3,
+    "description": "Unable to establish a connection to the database.",
+    "labels": ["database", "warning", "dev-branch"],
+    "createdAt": 1839549737422,
+    "owner": {
+      "_id": "u102",
+      "fullname": "User Two",
+      "score": 100
+    }
+  },
+  {
+    "_id": "USRACC",
+    "title": "Invalid User Access Attempt",
+    "severity": 3,
+    "description": "Unauthorized access attempt by an invalid user.",
+    "labels": ["security", "user", "bug"],
+    "createdAt": 1933931450173,
+    "owner": {
+      "_id": "u103",
+      "fullname": "User Three",
+      "score": 100
+    }
+  },
+  {
+    "_id": "C0FF33",
+    "title": "404 Coffee Not Found",
+    "severity": 2,
+    "description": "Coffee not available. You're out of luck!",
+    "labels": ["fun", "break-time", "bug"],
+    "createdAt": 1629432061000,
+    "owner": {
+      "_id": "u101",
+      "fullname": "User One",
+      "score": 100
+    }
+  },
+  {
+    "_id": "DSKSPC",
+    "title": "Disk Space Running Low",
+    "severity": 2,
+    "description": "Running out of available disk space.",
+    "labels": ["storage", "warning", "bug"],
+    "createdAt": 1870943853711,
+    "owner": {
+      "_id": "u102",
+      "fullname": "User Two",
+      "score": 100
+    }
+  },
+  {
+    "_id": "G0053",
+    "title": "Unexpected Response",
+    "severity": 1,
+    "description": "Received an unexpected response from the server.",
+    "labels": ["server", "issue", "urgent"],
+    "createdAt": 1660910442505,
+    "owner": {
+      "_id": "u103",
+      "fullname": "User Three",
+      "score": 100
+    }
+  },
+  {
+    "_id": "SWUPDT",
+    "title": "Software Update Available",
+    "severity": 1,
+    "description": "New software update is ready for installation.",
+    "labels": ["software", "update", "dev-branch"],
+    "createdAt": 1902412412585,
+    "owner": {
+      "_id": "u101",
+      "fullname": "User One",
+      "score": 100
+    }
+  }
+]
