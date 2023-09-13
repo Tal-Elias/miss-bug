@@ -16,7 +16,7 @@ export function BugIndex() {
     const [filterBy, setFilterBy] = useState(bugService.getDefaultFilter())
     const debouncedSetFilter = useRef(utilService.debounce(onSetfilterBy, 500))
     const [pageCount, setPageCount] = useState(null)
-    
+
     useEffect(() => {
         loadBugs()
     }, [filterBy, sortBy])

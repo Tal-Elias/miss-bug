@@ -21,8 +21,8 @@ function checkLogin({ username, password }) {
     if (user) {
         // mini-user:
         user = {
-            _id : user._id,
-            fullname : user.fullname,
+            _id: user._id,
+            fullname: user.fullname,
             score: user.score,
             isAdmin: user.isAdmin
         }
@@ -44,7 +44,7 @@ function validateToken(loginToken) {
 
 function query() {
     const res = users.map(user => {
-        user = {...user}
+        user = { ...user }
         delete user.password
         return user
 
@@ -56,8 +56,8 @@ function getById(userId) {
     var user = users.find(user => user._id === userId)
     if (user) {
         user = {
-            _id : user._id,
-            fullname : user.fullname,
+            _id: user._id,
+            fullname: user.fullname,
             score: user.score
         }
     }
@@ -75,7 +75,7 @@ function add({ fullname, username, password }) {
     }
 
     users.push(user)
-    return _saveUsersToFile().then(() => ({_id: user._id, fullname: user.fullname}))
+    return _saveUsersToFile().then(() => ({ _id: user._id, fullname: user.fullname }))
 }
 
 

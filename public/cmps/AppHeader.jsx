@@ -3,7 +3,7 @@ import { LoginSignup } from './LoginSignup.jsx'
 import { userService } from '../services/user.service.js'
 import { showErrorMsg } from '../services/event-bus.service.js'
 
-const { Link, NavLink, useNavigate  } = ReactRouterDOM
+const { Link, NavLink, useNavigate } = ReactRouterDOM
 const { useState } = React
 
 export function AppHeader() {

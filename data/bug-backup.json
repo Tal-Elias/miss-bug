@@ -4,7 +4,11 @@
     "title": "Critical Memory Leak",
     "severity": 5,
     "description": "Urgent: System running out of memory!",
-    "labels": ["critical", "urgent", "bug"],
+    "labels": [
+      "critical",
+      "urgent",
+      "bug"
+    ],
     "createdAt": 1692415089377,
     "owner": {
       "_id": "u101",
@@ -17,7 +21,11 @@
     "title": "Security Breach Alert",
     "severity": 5,
     "description": "Potential security breach detected.",
-    "labels": ["security", "urgent", "bug"],
+    "labels": [
+      "security",
+      "urgent",
+      "bug"
+    ],
     "createdAt": 1808109264111,
     "owner": {
       "_id": "u102",
@@ -30,7 +38,11 @@
     "title": "Infinite Loop Detected",
     "severity": 4,
     "description": "Infinite loop detected in the code.",
-    "labels": ["need-CR", "bug", "dev-branch"],
+    "labels": [
+      "need-CR",
+      "bug",
+      "dev-branch"
+    ],
     "createdAt": 12407869454,
     "owner": {
       "_id": "u103",
@@ -43,7 +55,11 @@
     "title": "Network Connection Lost",
     "severity": 4,
     "description": "Unable to connect to the network.",
-    "labels": ["network", "urgent", "bug"],
+    "labels": [
+      "network",
+      "urgent",
+      "bug"
+    ],
     "createdAt": 1713933547852,
     "owner": {
       "_id": "u101",
@@ -56,7 +72,11 @@
     "title": "File Corruption Detected",
     "severity": 4,
     "description": "Important files are corrupted.",
-    "labels": ["data", "bug", "urgent"],
+    "labels": [
+      "data",
+      "bug",
+      "urgent"
+    ],
     "createdAt": 1745354326939,
     "owner": {
       "_id": "u102",
@@ -69,7 +89,11 @@
     "title": "Keyboard Not Found",
     "severity": 3,
     "description": "Keyboard not detected. Check the connection.",
-    "labels": ["hardware", "urgent", "dev-branch"],
+    "labels": [
+      "hardware",
+      "urgent",
+      "dev-branch"
+    ],
     "createdAt": 1542107359004,
     "owner": {
       "_id": "u103",
@@ -82,7 +106,11 @@
     "title": "Server Overload Warning",
     "severity": 3,
     "description": "Server resources nearing maximum capacity.",
-    "labels": ["server", "warning", "dev-branch"],
+    "labels": [
+      "server",
+      "warning",
+      "dev-branch"
+    ],
     "createdAt": 1776748422356,
     "owner": {
       "_id": "u101",
@@ -95,7 +123,11 @@
     "title": "Database Connection Error",
     "severity": 3,
     "description": "Unable to establish a connection to the database.",
-    "labels": ["database", "warning", "dev-branch"],
+    "labels": [
+      "database",
+      "warning",
+      "dev-branch"
+    ],
     "createdAt": 1839549737422,
     "owner": {
       "_id": "u102",
@@ -108,7 +140,11 @@
     "title": "Invalid User Access Attempt",
     "severity": 3,
     "description": "Unauthorized access attempt by an invalid user.",
-    "labels": ["security", "user", "bug"],
+    "labels": [
+      "security",
+      "user",
+      "bug"
+    ],
     "createdAt": 1933931450173,
     "owner": {
       "_id": "u103",
@@ -121,7 +157,11 @@
     "title": "404 Coffee Not Found",
     "severity": 2,
     "description": "Coffee not available. You're out of luck!",
-    "labels": ["fun", "break-time", "bug"],
+    "labels": [
+      "fun",
+      "break-time",
+      "bug"
+    ],
     "createdAt": 1629432061000,
     "owner": {
       "_id": "u101",
@@ -134,7 +174,11 @@
     "title": "Disk Space Running Low",
     "severity": 2,
     "description": "Running out of available disk space.",
-    "labels": ["storage", "warning", "bug"],
+    "labels": [
+      "storage",
+      "warning",
+      "bug"
+    ],
     "createdAt": 1870943853711,
     "owner": {
       "_id": "u102",
@@ -147,7 +191,11 @@
     "title": "Unexpected Response",
     "severity": 1,
     "description": "Received an unexpected response from the server.",
-    "labels": ["server", "issue", "urgent"],
+    "labels": [
+      "server",
+      "issue",
+      "urgent"
+    ],
     "createdAt": 1660910442505,
     "owner": {
       "_id": "u103",
@@ -160,7 +208,11 @@
     "title": "Software Update Available",
     "severity": 1,
     "description": "New software update is ready for installation.",
-    "labels": ["software", "update", "dev-branch"],
+    "labels": [
+      "software",
+      "update",
+      "dev-branch"
+    ],
     "createdAt": 1902412412585,
     "owner": {
       "_id": "u101",

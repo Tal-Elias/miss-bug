@@ -61,7 +61,8 @@ function save(bug, loggedinUser) {
     if (bug._id) {
         const bugIdx = bugs.findIndex(currBug => currBug._id === bug._id)
         if (bugs[bugIdx].owner._id !== loggedinUser._id && !loggedinUser.isAdmin) return Promise.reject('Not your Bug')
-        bugs[bugIdx] = bug
+        bugs[bugIdx].title = bug.title
+        bugs[bugIdx].severity = bug.severity
     } else {
         bug = {
             _id: utilService.makeId(),

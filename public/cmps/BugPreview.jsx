@@ -1,6 +1,6 @@
 
 
-export function BugPreview({bug}) {
+export function BugPreview({ bug }) {
 
     return <article>
         <h4>{bug.title}</h4>
